@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Modest Edit — thoughtfully curated modest fashion, abayas and everyday essentials.">
+  <title>The Modest Edit | Modest Fashion</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="logo" href="#">the modest <em>edit.</em></a>
+<nav id="nav"><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#contact">Contact</a></nav>
+<div class="header-actions"><button class="icon-btn" id="searchToggle" aria-label="Search">⌕</button><button class="cart-btn" id="cartButton">Bag <span id="cartCount">0</span></button><button class="menu-btn" id="menuButton" aria-label="Open menu">☰</button></div></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">LESS, BUT BETTER</p><h1>Modesty is<br><i>your statement.</i></h1><p>Thoughtful pieces for everyday elegance. Discover a wardrobe that feels as good as it looks.</p><a class="btn dark" href="#collections">Explore collection <span>↗</span></a></div><div class="hero-image"><img src="https://images.unsplash.com/photo-1585487000160-6ebcf7215e6e?auto=format&fit=crop&w=1200&q=85" alt="Elegant neutral modest fashion outfit"></div><div class="hero-note">CURATED FOR EVERY DAY · EST. 2026</div></section>
+<section class="intro" id="story"><p class="eyebrow">A MORE CONSIDERED WARDROBE</p><h2>Pieces to wear.<br><i>Moments to remember.</i></h2><p>We believe personal style should feel effortless. Explore timeless silhouettes, soft textures and versatile essentials designed to become your favourites.</p></section>
+<section class="collection" id="collections"><div class="section-head"><div><p class="eyebrow">THE EDIT</p><h2>Find your <i>favourite.</i></h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="abayas">Abayas</button><button class="filter" data-filter="hijabs">Hijabs</button><button class="filter" data-filter="sets">Co-ords</button></div></div>
+<div class="product-grid" id="productGrid">
+<article class="product" data-category="abayas"><div class="product-img"><img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=700&q=80" alt="Neutral long dress"><span>BESTSELLER</span></div><div class="product-info"><div><h3>Everyday Flow Abaya</h3><p>Soft sand · Relaxed fit</p></div><strong>Rs. 4,800</strong></div><button class="add-btn" data-name="Everyday Flow Abaya" data-price="4800">Add to bag +</button></article>
+<article class="product" data-category="hijabs"><div class="product-img"><img src="https://images.unsplash.com/photo-1605763240000-7e93b172d754?auto=format&fit=crop&w=700&q=80" alt="Neutral fabric and accessories"></div><div class="product-info"><div><h3>Cloud Chiffon Hijab</h3><p>Mocha · Lightweight</p></div><strong>Rs. 950</strong></div><button class="add-btn" data-name="Cloud Chiffon Hijab" data-price="950">Add to bag +</button></article>
+<article class="product" data-category="sets"><div class="product-img"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="Minimal coordinated fashion outfit"><span>NEW</span></div><div class="product-info"><div><h3>Weekend Co-ord Set</h3><p>Stone · Two-piece</p></div><strong>Rs. 5,600</strong></div><button class="add-btn" data-name="Weekend Co-ord Set" data-price="5600">Add to bag +</button></article>
+<article class="product" data-category="abayas"><div class="product-img"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80" alt="Elegant dark outfit"><span>EDIT PICK</span></div><div class="product-info"><div><h3>Midnight Essential</h3><p>Black · Classic cut</p></div><strong>Rs. 4,200</strong></div><button class="add-btn" data-name="Midnight Essential" data-price="4200">Add to bag +</button></article>
+</div><p class="empty-state" id="emptyState" hidden>No products in this category yet.</p></section>
+<section class="banner"><p class="eyebrow">THE EVERYDAY COLLECTION</p><h2>Make room for<br><i>what feels like you.</i></h2><a class="btn light" href="#collections">Shop the edit ↗</a></section>
+<section class="newsletter"><div><p class="eyebrow">A NOTE FROM US</p><h2>Good things, <i>occasionally.</i></h2><p>Sign up for new arrivals, styling notes and thoughtful inspiration.</p></div><form id="newsletterForm"><input type="email" placeholder="Your email address" required aria-label="Email address"><button class="btn dark">Subscribe ↗</button><small id="newsletterMsg"></small></form></section>
+</main>
+<footer id="contact"><a class="logo" href="#">the modest <em>edit.</em></a><p>Everyday elegance, thoughtfully selected.</p><div><a href="mailto:hello@themodestedit.example">hello@themodestedit.example</a><span>Instagram · Pinterest</span></div><small>© 2026 The Modest Edit. Student portfolio project.</small></footer>
+<div class="toast" id="toast" role="status"></div><script src="script.js"></script></body></html>
